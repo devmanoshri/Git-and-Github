@@ -9,15 +9,18 @@ git commit -m "write message"
 git log
 git status
 
->create and switch to another branch - 
-git checkout -b second-branch
+>create and switch to another branch - git checkout -b second-branch
 >check branch status - git branch
-> when in master, merge with second-branch -
-git merge second-branch
+> when in master, merge with second-branch - git merge second-branch
 
 >Listing files of current branch - git ls-files
 >delete file - git rm file-name
-> Undoing unstaged -  changes - git checkout file-name
+>Undoing unstaged -  changes - git checkout file-name
 
 >Delete untracked files-  git clean -dn
 >Force delete untracked files-  git clean -df
+
+>Remove files from stagging area - 
+git reset filename
+git checkout -- filename
+git restore --staged filename or . 
