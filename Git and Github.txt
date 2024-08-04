@@ -5,7 +5,7 @@ git config --global user.email "abc@gmail.com"
 git config --global user.name  "Manoshri"
 
 git add "file-name"
-git commit -m "write message"
+git commit -m "write message" 
 git log
 git status
 
